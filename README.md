@@ -3,23 +3,34 @@
 Este repositorio contiene el análisis de datos de accidentes de tránsito ocurridos en la ciudad de Barranquilla. El objetivo es identificar patrones, factores de riesgo y posibles predictores relacionados con la accidentalidad vial en la región.
 
 ---
+Descripción del Proyecto
+
+Este proyecto busca analizar y visualizar los patrones de accidentalidad vial en la ciudad de Barranquilla, a partir de un conjunto de datos reales. Se pretende entender los factores que influyen en la gravedad de los accidentes, así como generar alertas y propuestas basadas en evidencia para reducir su impacto.
+Utilizamos herramientas de análisis de datos como Python, Pandas, Seaborn, Matplotlib, SQL, Power BI y Tableau.
+
+El dataset se llama `Accidentalidad_en_Barranquilla_victimas_20250527.csv`.
+
+---
 
 ## Hipótesis del proyecto
 
-1. **Los accidentes con mayor número de víctimas están asociados a ciertas comunas o barrios específicos.**
+1. **Los accidentes con mayor número de víctimas están asociados a ciertas zonas específicos.**
 2. **El día de la semana y la hora influyen significativamente en la frecuencia de los accidentes.**
 3. **Existe relación entre el tipo de accidente y la severidad de las víctimas.**
 
----
-
-## Estructura del repositorio
-📁 data/ # Contiene el archivo CSV original
-📁 notebooks/ # Jupyter Notebooks de análisis y visualización
-📁 images/ # Gráficos generados durante el análisis
-📄 README.md # Este archivo
-
 
 ---
+📁 Proyecto-AccidentalidadBQ
+│
+├── README.md
+├── datos/
+│ └── Accidentalidad_en_Barranquilla_victimas_20250527.csv
+├── notebooks/
+│ └── analisis_exploratorio.ipynb
+│── images /
+│ └── Gráficos generados durante el análisis
+└── informes/
+└── reporte_final.pdf
 
 ## Herramientas y tecnologías usadas
 
@@ -27,7 +38,7 @@ Este repositorio contiene el análisis de datos de accidentes de tránsito ocurr
 - `Pandas`, `NumPy` para manipulación de datos
 - `Matplotlib`, `Seaborn` para visualización
 - `Jupyter Notebook`
-- `Power BI` (para análisis complementario, opcional)
+- `Power BI y Tableau Public` (para análisis complementario, opcional)
 - `Git + GitHub` para colaboración
 
 ---
